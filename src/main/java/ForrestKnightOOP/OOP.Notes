@@ -1,0 +1,23 @@
+What is Encapsulation?
+Refers to the bundling of data (attributes) and methods (functions)
+That operate on that data into a single unit, typically a class.
+It restricts direct access to some of an object's components
+And can prevent the accidental modification of data.
+This is achieved by using access modifiers (like private, protected, and public)
+To control visibility and access to the class's members.
+
+In short Encapsulation is a concept of OOP that bundles data (Variables) and related methods (Functions) into one class.
+Hiding the internal data from outside access, allowing control through public methods.
+
+Why is Encapsulation important?
+Encapsulation is important because it allows data hiding protecting from unwanted changes from outside the class.
+
+When to use Encapsulation?
+You want to use encapsulation to protect specific data like (a bank account balance) from other classes
+that are outside the class itself so that code and functions that are outside the class can't accidentally modify/change the set amount
+that the balance is set to unless you use a getter method to call to the amount that the balance is set to
+and you can then display it. With that you can then access the balance without changing the original set amount.
+You can do things like transactions.
+
+
+
