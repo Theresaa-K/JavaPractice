@@ -18,8 +18,7 @@ public class Inventory {
     public void displayInventory() {
         // Loop through the items in the inventory
         for (Item item : items) {
-            System.out.println("Item: " + item.getName() + ", Quantity: " +
-                item.getQuantity());
+            System.out.println(item.toString());
         }
     }
 

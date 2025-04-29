@@ -1,4 +1,4 @@
-What is Encapsulation?
+-What is Encapsulation?
 Refers to the bundling of data (attributes) and methods (functions)
 That operate on that data into a single unit, typically a class.
 It restricts direct access to some of an object's components
@@ -18,6 +18,22 @@ that are outside the class itself so that code and functions that are outside th
 that the balance is set to unless you use a getter method to call to the amount that the balance is set to
 and you can then display it. With that you can then access the balance without changing the original set amount.
 You can do things like transactions.
+
+- What is inheritance?
+Inheritance is when a class (child class) inherits the functionality of another class (parent class).
+
+why is inheritance important?
+Inheritance is important because it allow for you to reuse code throughout your program
+which is needed if you have multiple classes so that you don't have to rewrite the same code over and over.
+
+When to use inheritance?
+You want to use inheritance when you have multiple classes that share the same functionality.
+
+For example, if you have a class called Animal and you have multiple classes that are animals like Dog, Cat, Fish, etc.
+You can create a class called Animal and then have the Dog, Cat, Fish classes inherit from the Animal class.
+This way you can reuse the code in the Animal class and not have to rewrite the same code over and over.
+
+- What is polymorphism?
 
 
 
